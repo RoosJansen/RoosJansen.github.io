@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <title>Verhalen Voor Op Reis</title>
+    <link rel="stylesheet" href="stylesheets/inlog.css">
+    <meta name="viewport" content="width=device-width, initial-scale=/">
+</head>
+
+    <header>
+        <nav>
+            <a href="index.html"><img id="logo" src="images/LogoFlix.png" alt='Logo Flixbus'></a>
+            <ul>
+                <li><a href="index.html">Over Ons<img src="images/pijl.png" alt="over ons"></a></li>
+                <li><a href="inloggen.html">Inloggen<img src="images/pijl.png" alt="inloggen"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h2>Inloggen</h2>
+    <p>Registreren/aanmelden binnen enkele seconden.</p>
+
+    <form>
+         <h3>Ik heb een account</h3>
+        <label for="email">E-mailadres:</label>
+        <input type="text" id="email" name="email" required>
+        <label for="wachtwoord">Wachtwoord: </label>
+        <input type="password" id="wachtwoord" name="wachtwoord" required>
+        
+        <a href="">Wachtwoord vergeten?</a>
+        
+         <label for="inlogblijf"><input type="checkbox" id="inlogblijf"> Ingelogd blijven</label>
+         
+        <input id="inloggen" type="submit" value="Inloggen">
+
+    </form>
+
+    <form>
+    
+        <h3>Ik wil me aanmelden</h3>
+        <label for="voornaam">Voornaam: </label>
+        <input type="text" id="voornaam" name="voornaam" required>
+        <label for="achternaam">Achternaam: </label>
+        <input type="text" id="achternaam" name="achternaam">
+        <label for="email">E-mail: </label>
+        <input id="email" type="email" name="email" required>
+        <label for="wachtwoord1">Wachtwoord: </label>
+        <input id="wachtwoord1" type="password" name="wachtwoord" pattern=".{8,}" required>
+        <label for="wachtwoord2">Bevestigen wachtwoord: </label>
+        <input id="wachtwoord2" type="password" name="wachtwoord" pattern=".{8,}" required>
+        
+        <label for="voorwaarden"><input type="checkbox" id="voorwaarden"> Ik accepteer de <span>algemene voorwaarden</span> en het <span>privacybeleid.</span></label>
+        <input id="registreren" type="submit" value="Registreren">
+    </form>
+
+</body>
+
+</html>

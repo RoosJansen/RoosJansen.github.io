@@ -1,0 +1,241 @@
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.25em;
+    background-color: #ededed;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+/* HEADER */
+
+header {
+    background-color: #73d601;
+    height: 4em;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    padding-left: 2em;
+    padding-top: 1.2em;
+    padding-bottom: 2em;
+    margin: 0;
+}
+
+header li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header li img {
+    padding: 0.3em 0.2em 0.2em 0.3em;
+}
+
+#logo {
+    width: 6em;
+    height: 1.2em;
+}
+
+h1 {
+    font-size: 130%;
+    text-align: center;
+    align-self: center;
+    color: #fff;
+}
+
+h3 {
+    font-size: 2.5em;
+    text-align: center;
+    color: #444;
+    font-weight: bold;
+    margin: 0;
+}
+
+p {
+    display: block;
+    width: 100%;
+    align-self: center;
+    font-size: 0.9em;
+    margin-top: 0.1em;
+    color: #8c8c8c;
+    text-decoration: underline;
+}
+
+section {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+
+article {
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+
+button {
+    margin: 0.8em;
+    padding: 2em;
+    background-color: #ffab00;
+    align-content: space-between;
+    color: #ededed;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* DUIM BUTTON */
+
+.duimleeg {
+    background-image: url('../images/duim.png');
+    background-size: 2.5em;
+    width: 6em;
+    height: 6em;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.duimvol {
+    background-image: url('../images/duimgroen.png');
+    background-size: 2.5em;
+    width: 6em;
+    height: 6em;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 2s;
+}
+
+/* HART BUTTON */
+
+.hartleeg {
+    background-image: url('../images/hartleeg.png');
+    background-size: 2.3em;
+    width: 6em;
+    height: 6em;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hartvol {
+    background-image: url('../images/hartvol.png');
+    background-size: 2.3em;
+    width: 6em;
+    height: 6em;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 2s;
+}
+
+/* DOWNLOAD BUTTON */
+
+.downloadleeg {
+    background-image: url('../images/download.png');
+    background-size: 3.5em;
+    width: 6em;
+    height: 6em;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.downloadvol {
+    background-image: url('../images/downloadvol.png');
+    background-size: 3.5em;
+    width: 6em;
+    height: 6em;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 2s;
+}
+
+button:focus {
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.35); //transition: all .2s;
+}
+
+button:hover {
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25); //transition: all .2s;
+}
+
+button:active {
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.55); //transition: all .2s;
+}
+
+/* RESPONSIVE VERHALEN */
+
+#mobile {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+#tablet {
+    display: none;
+}
+
+#desktop {
+    display: none;
+}
+
+/* MEDIA QUERIES */
+
+@media all and (min-width: 40em) {
+
+    #mobile {
+        display: none;
+
+    }
+
+    #tablet {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    header li img {
+        padding: 0.3em 0.2em 0.2em 0.3em;
+    }
+
+    #logo {
+        width: 10em;
+        height: 2em;
+    }
+
+    @media all and (min-width: 70em) {
+
+        #tablet {
+            display: none;
+        }
+
+        #desktop {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+
+        section {
+            margin-left: 4em;
+            margin-right: 4em;
+        }
+
+        article {
+            margin-left: 4em;
+            margin-right: 4em;
+        }
+    }

@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <meta charset="utf-8">
+    <title>Verhalen Voor Op Reis</title>
+    <link rel="stylesheet" href="stylesheets/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="index.html"><img id="logo" src="images/LogoFlix.png" alt='Logo Flixbus'></a>
+            <ul>
+                <li><a href="index.html">Over Ons<img src="images/pijl.png" alt="over ons"></a></li>
+                <li><a href="inloggen.html">Inloggen<img src="images/pijl.png" alt="inloggen"></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div>
+            <h1>Welkom op de verhalenwebsite!</h1>
+            <form>
+                <input type="text" id="zoeken" placeholder="Zoek Direct">
+                <input type="submit" value="Zoeken">
+            </form>
+    </div>
+
+
+
+    <section>
+        <button>Verras Me</button>
+    </section>
+
+    <form>
+        <ul>
+            <li>Filteren <img src="images/pijl.png" alt="over ons">
+                <ul>
+                    <li>Genre</li>
+                    <li><label for="thriller"><input type="checkbox" id="thriller" value="thriller"> Thriller</label></li>
+                    <li><label for="biografie"><input type="checkbox" id="biografie" value="biografie"> Biografie</label></li>
+                    <li><label for="horror"><input type="checkbox" id="horror" value="horror"> Horror</label></li>
+                    <li><label for="fictie"><input type="checkbox" id="fictie" value="fictie"> Fictie</label></li>
+                    <li><label for="avontuur"><input type="checkbox" id="avontuur" value="avontuur"> Avontuur</label></li>
+
+                    <li>Leeftijd</li>
+                    <li><label for="6tot14"><input type="checkbox" id="6tot14" value="6tot14"> 6 tot 14 jaar</label></li>
+                    <li> <label for="15tot19"><input type="checkbox" id="15tot19" value="15tot19"> 15 tot 19 jaar</label></li>
+                    <li><label for="20tot25"><input type="checkbox" id="20tot25" value="20tot25"> 20 tot 25 jaar</label></li>
+                    <li><label for="26tot40"><input type="checkbox" id="26tot40" value="26tot40"> 26 tot 40 jaar</label></li>
+                    <li><label for="40+"><input type="checkbox" id="40+" value="40+"> 40+ jaar</label></li>
+
+                    <li>Leestijd</li>
+                    <li><label for="min5minuten"><input type="checkbox" id="min5minuten" value="min 5 minuten"> -5 minuten</label></li>
+                    <li><label for="meer5minuten"><input type="checkbox" id="meer5minuten" value="meer 5 minuten"> +5 minuten</label></li>
+                    <li><label for="10minuten"><input type="checkbox" id="10minuten" value="10 minuten"> +10 minuten</label></li>
+                    <li><label for="20minuten"><input type="checkbox" id="20minuten" value="20 minuten"> +20 minuten</label></li>
+                    <li><label for="30minuten"><input type="checkbox" id="30minuten" value="30 minuten"> +30 minuten</label></li>
+                </ul>
+            </li>
+            <li>Sorteren <img src="images/pijl.png" alt="over ons">
+                <ul>
+                    <li><label for="alfabetisch"><input type="radio" id="alfabetisch" value="alfabetisch" name="sorteren"> Alfabetisch</label></li>
+                    <li><label for="numeriek"><input type="radio" id="numeriek" value="numeriek" name="sorteren"> Numeriek</label></li>
+                    <li><label for="datum"><input type="radio" id="datum" value="datum" name="sorteren"> Datum</label></li>
+                    <li><label for="populariteit"><input type="radio" id="populariteit" value="populariteit" name="sorteren"> Populariteit</label></li>
+                    <li><label for="leesduur"><input type="radio" id="leesduur" value="leesduur" name="sorteren"> Leesduur</label></li>
+
+                </ul>
+            </li>
+        </ul>
+    </form>
+
+    <main>
+        <article>
+            <a href="terugspoelen.html">
+                <h3>Terugspoelen</h3>
+            </a>
+            <p> 2 februari 2011, + 5 minuten #ingewikkeld</p>
+            <img src="images/thumbnailterugspoelen.jpg" alt="terugspoelen">
+            <footer>
+                <button class="duimleeg"></button>
+                <button class="hartleeg"></button>
+                <button><img src="images/kruis.png" alt="oranje kruis"></button>
+                <p id="toegevoegd"></p>
+                <p><img src="images/kleinduimoranje.png">567 likes</p>
+            </footer>
+        </article>
+
+        <article>
+            <a href="angstig.html">
+                <h3>Paranoia</h3>
+            </a>
+            <p> 4 februari 2011, 10 minuten #spannend</p>
+            <img src="images/thumbnailparanoia.jpg" alt="paranoia">
+            <footer>
+                <button><img src="images/duim.png" alt="groene duim"></button>
+                <button class="hartleeg"></button>
+                <button><img src="images/kruisgroen.png" alt="groen kruis"></button>
+                <p id="toegevoegd"></p>
+                <p><img src="images/duim.png">657 likes</p>
+            </footer>
+
+        </article>
+
+        <article>
+            <a href="western.html">
+                <h3>Western</h3>
+            </a>
+            <p> 8 februari 2011, +5 minuten #grappig </p>
+            <img src="images/thumbnailwestern.jpg" alt="western">
+            <footer>
+                <button class="duimleeg"></button>
+                <button class="hartleeg"></button>
+                <button><img src="images/kruis.png" alt="oranje kruis"></button>
+                <p id="toegevoegd"></p>
+                <p><img src="images/kleinduimoranje.png">685 likes</p>
+            </footer>
+        </article>
+
+        <article>
+            <h3>Verrast</h3>
+            <p> 14 februari 2011, +5 minuten, #grappig #relevant </p>
+            <img src="images/foto5.jpg" alt="bergen met een weg" href="">
+            <footer>
+                <button><img src="images/duim.png" alt="groene duim"></button>
+                <button class="hartleeg"></button>
+                <button><img src="images/kruisgroen.png" alt="groen kruis"></button>
+                <p id="toegevoegd"></p>
+                <p><img src="images/duim.png">235 likes</p>
+            </footer>
+        </article>
+
+        <article>
+            <a href="">
+                <h3>Verhalend</h3>
+            </a>
+            <p> 23 februari 2011, +10 minuten,#mooi #inspirerend </p>
+            <img src="images/foto4.jpg" alt="woestijn met weg" href="">
+            <footer>
+                <button class="duimleeg"></button>
+                <button class="hartleeg"></button>
+                <button><img src="images/kruis.png" alt="oranje kruis"></button>
+                <p id="toegevoegd"></p>
+                <p><img src="images/kleinduimoranje.png">125 likes</p>
+            </footer>
+        </article>
+
+        <article>
+            <a href="">
+                <h3>Hardboiled</h3>
+            </a>
+            <p> 27 februari 2011, -5 minuten,#kort #makkelijk </p>
+            <img src="images/foto3.jpg" alt="bergen en een weg" href="">
+            <footer>
+                <button><img src="images/duim.png" alt="groene duim"></button>
+                <button class="hartleeg"></button>
+                <button><img src="images/kruisgroen.png" alt="groen kruis"></button>
+                <p id="toegevoegd"></p>
+                <p><img src="images/duim.png">355 likes</p>
+            </footer>
+        </article>
+
+        <article>
+            <a href="">
+                <h3>Woordenrally</h3>
+            </a>
+            <p> 9 februari 2011, +5 minuten,#ingewikkeld #grappig </p>
+            <img src="images/foto2.jpg" alt="schimmige berg met een weg" href="">
+            <footer>
+                <button class="duimleeg"></button>
+                <button class="hartleeg"></button>
+                <button><img src="images/kruis.png" alt="oranje kruis"></button>
+                <p id="toegevoegd"></p>
+                <p><img src="images/kleinduimoranje.png">673 likes</p>
+            </footer>
+        </article>
+
+        <article>
+            <a href="">
+                <h3>Twitter</h3>
+            </a>
+            <p> 16 februari 2011, +20 minuten, #relevant #share </p>
+            <img src="images/foto1.jpg" alt="ondergaande zon met gras" href="">
+            <footer>
+                <button><img src="images/duim.png" alt="groene duim"></button>
+                <button class="hartleeg"></button>
+                <button><img src="images/kruisgroen.png" alt="groen kruis"></button>
+                <p id="toegevoegd"></p>
+                <p><img src="images/duim.png">452 likes</p>
+            </footer>
+        </article>
+    </main>
+
+    <footer>
+    </footer>
+
+
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>
